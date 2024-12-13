@@ -52,16 +52,22 @@
         </a>
         <ul class="sidebar-submenu">
           <li>
-            <a href="/pic/dashboard-pic.html"><i class="ri-circle-fill circle-icon text-success-main w-auto"></i> Dashboard</a>
+            <a href="/spv/dashboard-spv.html"><i class="ri-circle-fill circle-icon text-success-main w-auto"></i> Dashboard</a>
           </li>
           <li>
-            <a href="/pic/absensi-pic.html"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Absensi Kerja</a>
+            <a href="/spv/absensi.html"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Absensi Saya</a>
           </li>
           <li>
-            <a href="/pic/jadwal-pekerjaan-pic.html"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> Jadwal Pekerjaan</a>
+            <a href="/spv/absensi-pic.html"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Absensi PIC</a>
           </li>
           <li>
-            <a href="/pic/work-order-pic.html"><i class="ri-circle-fill circle-icon text-primary w-auto"></i> Work Order</a>
+            <a href="/spv/jadwal-pekerjaan-spv.html"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> Jadwal Pekerjaan</a>
+          </li>
+          <li>
+            <a href="/spv/ceklis-pekerjaan-spv.html"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> Ceklis Pekerjaan</a>
+          </li>
+          <li>
+            <a href="/spv/work-order-spv.html"><i class="ri-circle-fill circle-icon text-primary w-auto"></i> Work Order</a>
           </li>
         </ul>
       </li>
@@ -684,7 +690,7 @@
   <div class="dashboard-main-body">
 
     <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-24">
-  <h6 class="fw-semibold mb-0">History Absensi</h6>
+  <h6 class="fw-semibold mb-0">Absensi Saya</h6>
   <ul class="d-flex align-items-center gap-2">
     <li class="fw-medium">
       <a href="index.html" class="d-flex align-items-center gap-1 hover-text-primary">
@@ -693,7 +699,7 @@
       </a>
     </li>
     <li>-</li>
-    <li class="fw-medium">Absensi Kerja</li>
+    <li class="fw-medium">Absensi Saya</li>
   </ul>
 </div>
     
@@ -709,6 +715,7 @@
                     <th scope="col">Absen Masuk</th>
                     <th scope="col">Absen Pulang</th>
                     <th scope="col" class="text-center">Status</th>
+                    <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -722,6 +729,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -733,6 +745,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -744,6 +761,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -756,6 +778,11 @@
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span
                         class="bg-info-focus text-info-main px-24 py-4 rounded-pill fw-medium text-sm">Izin</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -768,6 +795,11 @@
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span
                         class="bg-danger-focus text-danger-main px-24 py-4 rounded-pill fw-medium text-sm">Tanpa Keterangan</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -779,6 +811,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -790,6 +827,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -801,6 +843,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-warning-focus text-warning-main px-24 py-4 rounded-pill fw-medium text-sm">Sakit</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -812,6 +859,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -823,6 +875,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -834,6 +891,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -845,6 +907,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -856,6 +923,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -867,6 +939,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -878,6 +955,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-warning-focus text-warning-main px-24 py-4 rounded-pill fw-medium text-sm">Sakit</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -889,6 +971,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -900,6 +987,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -911,6 +1003,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-warning-focus text-warning-main px-24 py-4 rounded-pill fw-medium text-sm">Sakit</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -922,6 +1019,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                     <td>
@@ -933,6 +1035,11 @@
                     <td>08:30 19/08/24</td>
                     <td>04:30 19/08/24</td>
                     <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
+                    <td>
+                        <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
+                        <iconify-icon icon="lucide:edit"></iconify-icon>
+                        </a>
+                    </td>
                     </tr>
                 </tbody>
                 </table>

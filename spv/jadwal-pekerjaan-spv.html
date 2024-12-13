@@ -52,16 +52,22 @@
         </a>
         <ul class="sidebar-submenu">
           <li>
-            <a href="/pic/dashboard-pic.html"><i class="ri-circle-fill circle-icon text-success-main w-auto"></i> Dashboard</a>
+            <a href="/spv/dashboard-spv.html"><i class="ri-circle-fill circle-icon text-success-main w-auto"></i> Dashboard</a>
           </li>
           <li>
-            <a href="/pic/absensi-pic.html"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Absensi Kerja</a>
+            <a href="/spv/absensi.html"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Absensi Saya</a>
           </li>
           <li>
-            <a href="/pic/jadwal-pekerjaan-pic.html"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> Jadwal Pekerjaan</a>
+            <a href="/spv/absensi-pic.html"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Absensi PIC</a>
           </li>
           <li>
-            <a href="/pic/work-order-pic.html"><i class="ri-circle-fill circle-icon text-primary w-auto"></i> Work Order</a>
+            <a href="/spv/jadwal-pekerjaan-spv.html"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> Jadwal Pekerjaan</a>
+          </li>
+          <li>
+            <a href="/spv/ceklis-pekerjaan-spv.html"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> Ceklis Pekerjaan</a>
+          </li>
+          <li>
+            <a href="/spv/work-order-spv.html"><i class="ri-circle-fill circle-icon text-primary w-auto"></i> Work Order</a>
           </li>
         </ul>
       </li>
@@ -684,7 +690,7 @@
   <div class="dashboard-main-body">
 
     <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-24">
-  <h6 class="fw-semibold mb-0">History Absensi</h6>
+  <h6 class="fw-semibold mb-0">Jadwal Pekerjaan</h6>
   <ul class="d-flex align-items-center gap-2">
     <li class="fw-medium">
       <a href="index.html" class="d-flex align-items-center gap-1 hover-text-primary">
@@ -693,257 +699,74 @@
       </a>
     </li>
     <li>-</li>
-    <li class="fw-medium">Absensi Kerja</li>
+    <li class="fw-medium">Jadwal Pekerjaan</li>
   </ul>
 </div>
     
-    <div class="row gy-4">  
-        
-        <div class="col-lg-12">
-        <div class="card basic-data-table">
-            <div class="card-body">
-                <table class="table bordered-table mb-0" id="dataTable" data-page-length='10'>
-                <thead>
-                    <tr>
-                    <th scope="col">Nama</th>
-                    <th scope="col">Absen Masuk</th>
-                    <th scope="col">Absen Pulang</th>
-                    <th scope="col" class="text-center">Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list1.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Kathryn Murphy</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list2.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Annette Black</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list3.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Ronald Richards</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list4.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Eleanor Pena</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span
-                        class="bg-info-focus text-info-main px-24 py-4 rounded-pill fw-medium text-sm">Izin</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list5.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Leslie Alexander</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span
-                        class="bg-danger-focus text-danger-main px-24 py-4 rounded-pill fw-medium text-sm">Tanpa Keterangan</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list6.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Albert Flores</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list7.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Jacob Jones</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list8.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Jerome Bell</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-warning-focus text-warning-main px-24 py-4 rounded-pill fw-medium text-sm">Sakit</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list9.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Marvin McKinney</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list10.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Cameron Williamson</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list1.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Kathryn Murphy</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list2.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Annette Black</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list3.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Ronald Richards</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list4.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Eleanor Pena</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list5.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Leslie Alexander</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-warning-focus text-warning-main px-24 py-4 rounded-pill fw-medium text-sm">Sakit</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list6.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Albert Flores</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list7.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Jacob Jones</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list8.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Jerome Bell</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-warning-focus text-warning-main px-24 py-4 rounded-pill fw-medium text-sm">Sakit</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list9.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Marvin McKinney</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <div class="d-flex align-items-center">
-                        <img src="assets/images/user-list/user-list10.png" alt="" class="flex-shrink-0 me-12 radius-8">
-                        <h6 class="text-md mb-0 fw-medium flex-grow-1">Cameron Williamson</h6>
-                        </div>
-                    </td>
-                    <td>08:30 19/08/24</td>
-                    <td>04:30 19/08/24</td>
-                    <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                    </tr>
-                </tbody>
-                </table>
+    <div class="row gy-4">
+            <div class="col-xxl-3 col-sm-6">
+                <div class="card h-100 radius-12">
+                    <div class="card-body p-24">
+                        <span class="badge text-sm fw-semibold text-warning-600 bg-warning-100 px-20 py-9 radius-4 text-white">Janitor</span>
+                        <h6 class="mb-8 mt-24">Klining Toilet Lt.3</h6>
+                        <p class="card-text mb-8 text-secondary-light">Supervisor : Andi</p>
+                        <a href="javascript:void(0)" class="btn btn-success-600 px-12 py-10 d-inline-flex align-items-center gap-2 mt-8"> 
+                            Tandai Selesai
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-sm-6">
+                <div class="card h-100 radius-12">
+                    <div class="card-body p-24">
+                        <span class="badge text-sm fw-semibold text-warning-600 bg-warning-100 px-20 py-9 radius-4 text-white">Janitor</span>
+                        <h6 class="mb-8 mt-24">Klining Toilet Lt.3</h6>
+                        <p class="card-text mb-8 text-secondary-light">Supervisor : Andi</p>
+                        <a href="javascript:void(0)" class="btn btn-success-600 px-12 py-10 d-inline-flex align-items-center gap-2 mt-8"> 
+                            Tandai Selesai
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-sm-6">
+                <div class="card h-100 radius-12">
+                    <div class="card-body p-24">
+                        <span class="badge text-sm fw-semibold text-warning-600 bg-warning-100 px-20 py-9 radius-4 text-white">Janitor</span>
+                        <h6 class="mb-8 mt-24">Klining Toilet Lt.3</h6>
+                        <p class="card-text mb-8 text-secondary-light">Supervisor : Andi</p>
+                        <a href="javascript:void(0)" class="btn btn-success-600 px-12 py-10 d-inline-flex align-items-center gap-2 mt-8"> 
+                            Tandai Selesai
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-sm-6">
+                <div class="card h-100 radius-12">
+                    <div class="card-body p-24">
+                        <span class="badge text-sm fw-semibold text-warning-600 bg-warning-100 px-20 py-9 radius-4 text-white">Janitor</span>
+                        <h6 class="mb-8 mt-24">Klining Toilet Lt.3</h6>
+                        <p class="card-text mb-8 text-secondary-light">Supervisor : Andi</p>
+                        <a href="javascript:void(0)" class="btn btn-success-600 px-12 py-10 d-inline-flex align-items-center gap-2 mt-8"> 
+                            Tandai Selesai
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-sm-6">
+                <div class="card h-100 radius-12">
+                    <div class="card-body p-24">
+                        <span class="badge text-sm fw-semibold text-warning-600 bg-warning-100 px-20 py-9 radius-4 text-white">Janitor</span>
+                        <h6 class="mb-8 mt-24">Klining Toilet Lt.3</h6>
+                        <p class="card-text mb-8 text-secondary-light">Supervisor : Andi</p>
+                        <a href="javascript:void(0)" class="btn btn-success-600 px-12 py-10 d-inline-flex align-items-center gap-2 mt-8"> 
+                            Tandai Selesai
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
-        
-    </div>
     
   </div>
-
 </main>
   
   <!-- jQuery library js -->
