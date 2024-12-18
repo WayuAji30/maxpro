@@ -697,10 +697,13 @@
    <div class="row gy-4">
         <div class="col-xxl-12 col-sm-12">
                 <div class="card h-100 radius-12">
-                    <div class="card-body p-24">
+                    <div class="card-body p-24 d-flex align-items-center justify-content-between">
+                      <div>
                         <span class="badge text-sm fw-semibold text-warning-600 bg-warning-100 px-20 py-9 radius-4 text-white">Proyek</span>
                         <h6 class="mb-8 mt-24">PT. Dimakara Berlian Abadi</h6>
                         <p class="card-text mb-8 text-secondary-light">13 PIC | Supervisor : Andi</p>
+                      </div>
+                      <img src="/assets/images/avatar/avatar-shape2.png" alt="" class="w-120-px h-120-px rounded-circle object-fit-cover">
                     </div>
             </div>
     </div>
@@ -718,6 +721,9 @@
                         <li class="nav-item" role="presentation">
                           <button class="nav-link fw-semibold text-primary-light radius-4 px-16 py-10" id="pills-button-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-button-profile" type="button" role="tab" aria-controls="pills-button-profile" aria-selected="false">Work Order</button>
                         </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link fw-semibold text-primary-light radius-4 px-16 py-10" id="pills-button-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-button-data" type="button" role="tab" aria-controls="pills-button-data" aria-selected="false">Data Pekerja</button>
+                        </li>
                     </ul>
                     <div class="tab-content" id="pills-tab-threeContent">
                         <div class="tab-pane fade show active" id="pills-button-home" role="tabpanel" aria-labelledby="pills-button-home-tab" tabindex="0">
@@ -731,7 +737,6 @@
                                             <th scope="col">Absen Masuk</th>
                                             <th scope="col">Absen Pulang</th>
                                             <th scope="col" class="text-center">Status</th>
-                                            <th scope="col">Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -744,12 +749,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -760,12 +760,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -776,12 +771,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -793,12 +783,7 @@
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
                                             <td class="text-center"> <span
-                                                class="bg-info-focus text-info-main px-24 py-4 rounded-pill fw-medium text-sm">Izin</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                                class="bg-info-focus text-info-main px-24 py-4 rounded-pill fw-medium text-sm">Izin</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -810,12 +795,7 @@
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
                                             <td class="text-center"> <span
-                                                class="bg-danger-focus text-danger-main px-24 py-4 rounded-pill fw-medium text-sm">Tanpa Keterangan</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                                class="bg-danger-focus text-danger-main px-24 py-4 rounded-pill fw-medium text-sm">Tanpa Keterangan</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -826,12 +806,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -842,12 +817,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -858,12 +828,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-warning-focus text-warning-main px-24 py-4 rounded-pill fw-medium text-sm">Sakit</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-warning-focus text-warning-main px-24 py-4 rounded-pill fw-medium text-sm">Sakit</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -874,12 +839,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -890,12 +850,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -906,12 +861,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -922,12 +872,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -938,12 +883,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -954,12 +894,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -970,12 +905,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-warning-focus text-warning-main px-24 py-4 rounded-pill fw-medium text-sm">Sakit</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-warning-focus text-warning-main px-24 py-4 rounded-pill fw-medium text-sm">Sakit</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -986,12 +916,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -1002,12 +927,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -1018,12 +938,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-warning-focus text-warning-main px-24 py-4 rounded-pill fw-medium text-sm">Sakit</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-warning-focus text-warning-main px-24 py-4 rounded-pill fw-medium text-sm">Sakit</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -1034,12 +949,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                             <tr>
                                             <td>
@@ -1050,12 +960,7 @@
                                             </td>
                                             <td>08:30 19/08/24</td>
                                             <td>04:30 19/08/24</td>
-                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>
-                                            <td>
-                                                <a href="javascript:void(0)" class="w-32-px h-32-px bg-success-focus text-success-main rounded-circle d-inline-flex align-items-center justify-content-center">
-                                                <iconify-icon icon="lucide:edit"></iconify-icon>
-                                                </a>
-                                            </td>
+                                            <td class="text-center"> <span class="bg-success-focus text-success-main px-24 py-4 rounded-pill fw-medium text-sm">Hadir</span> </td>  
                                             </tr>
                                         </tbody>
                                         </table>
@@ -1421,6 +1326,201 @@
                                                     <iconify-icon icon="lucide:edit"></iconify-icon>
                                                     </a>
                                                 </td>
+                                                </tr>
+                                            </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="tab-pane fade" id="pills-button-data" role="tabpanel" aria-labelledby="pills-button-data-tab" tabindex="0">
+                                  <div class="col-lg-12">
+                                    <div class="card basic-data-table">
+                                        <div class="card-body">
+                                            <table class="table bordered-table mb-0" id="dataTable" data-page-length='10'>
+                                            <thead>
+                                                <tr>
+                                                <th scope="col">Nama</th>
+                                                <th scope="col">Peran</th>
+                                                <th scope="col">Kontak</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list1.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Kathryn Murphy</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list2.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Annette Black</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list3.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Ronald Richards</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list4.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Eleanor Pena</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list5.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Leslie Alexander</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list6.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Albert Flores</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list7.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Jacob Jones</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list9.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Marvin McKinney</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list10.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Cameron Williamson</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list1.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Kathryn Murphy</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list2.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Annette Black</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list3.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Ronald Richards</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list4.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Eleanor Pena</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list6.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Albert Flores</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list7.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Jacob Jones</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list9.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Marvin McKinney</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
+                                                </tr>
+                                                <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                    <img src="assets/images/user-list/user-list10.png" alt="" class="flex-shrink-0 me-12 radius-8">
+                                                    <h6 class="text-md mb-0 fw-medium flex-grow-1">Cameron Williamson</h6>
+                                                    </div>
+                                                </td>
+                                                <td>08:30 19/08/24</td>
+                                                <td>04:30 19/08/24</td>
                                                 </tr>
                                             </tbody>
                                             </table>
